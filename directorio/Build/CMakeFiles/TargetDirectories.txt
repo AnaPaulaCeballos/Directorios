@@ -1,0 +1,4 @@
+C:/Users/Maestro/Desktop/directorio/Build/CMakeFiles/directorio.dir
+C:/Users/Maestro/Desktop/directorio/Build/CMakeFiles/INSTALL.dir
+C:/Users/Maestro/Desktop/directorio/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Maestro/Desktop/directorio/Build/CMakeFiles/ZERO_CHECK.dir

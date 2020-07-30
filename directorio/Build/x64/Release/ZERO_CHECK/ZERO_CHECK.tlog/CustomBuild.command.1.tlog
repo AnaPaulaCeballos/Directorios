@@ -1,0 +1,10 @@
+^C:\USERS\MAESTRO\DESKTOP\DIRECTORIO\BUILD\CMAKEFILES\5423F11BC786BA2F8FDE38C77284C7BC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Maestro/Desktop/directorio -BC:/Users/Maestro/Desktop/directorio/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Maestro/Desktop/directorio/Build/directorio.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

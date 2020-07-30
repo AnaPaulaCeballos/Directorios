@@ -1,0 +1,10 @@
+^C:\USERS\MAESTRO\DESKTOP\DIRECTORIO\BUILD\CMAKEFILES\5423F11BC786BA2F8FDE38C77284C7BC\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

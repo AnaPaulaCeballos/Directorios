@@ -1,0 +1,4 @@
+﻿  Main.cpp
+Main.obj : error LNK2019: símbolo externo "public: __cdecl Json::Value::Value(enum Json::ValueType)" (??0Value@Json@@QEAA@W4ValueType@1@@Z) sin resolver al que se hace referencia en la función "void __cdecl listar(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?listar@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Main.obj : error LNK2019: símbolo externo "public: __cdecl Json::Value::~Value(void)" (??1Value@Json@@QEAA@XZ) sin resolver al que se hace referencia en la función "void __cdecl listar(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?listar@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+C:\Users\Maestro\Desktop\directorio\Build\Release\directorio.exe : fatal error LNK1120: 2 externos sin resolver
